@@ -1,7 +1,5 @@
 programa {
   funcao inicio() {
-    inteiro numero1
-    inteiro numero2
     inteiro operacao
     real    resultado
 
@@ -15,8 +13,8 @@ programa {
     escreva("1: adição; 2: subtração; 3: multiplicação; 4: divisão \n")
     leia(operacao)
 
-    se(operacao == 4){
-      resultado = numero1 / numero2
+    se(operacao == 3){
+      resultado = numero1 * numero2
     }
   }
 }
